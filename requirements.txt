@@ -1,0 +1,17 @@
+# --- Week 1: baseline ---
+pymupdf            # PDF text extraction
+qdrant-client      # vector database client (embedded mode on Kaggle, server mode later)
+FlagEmbedding      # BGE-M3: dense + sparse embeddings in one model
+groq               # Llama-3 inference API
+python-dotenv      # load .env
+tqdm
+pydantic
+
+# --- Week 2: evaluation & observability (uncomment when we get there) ---
+# ragas
+# langfuse
+
+# --- Week 3: serving ---
+# fastapi
+# uvicorn
+# streamlit
